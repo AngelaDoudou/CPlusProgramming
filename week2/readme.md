@@ -26,3 +26,4 @@ public:
    Rectangle& operator=(const Rectangle& other);
    ~Rectangle();         
 };
+
