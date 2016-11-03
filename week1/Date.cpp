@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "Date.h"
-
 bool CreatePoints(Date* darr, const int size){
     if(size < 0) return false;
     srand((int)time(0));
@@ -27,7 +26,6 @@ void Sort(Date *arr, const int size){
         }
     }
 }
-
 
 int main(int argc,char **argv){
     Date arrDate[10];
